@@ -69,6 +69,10 @@ function App() {
         <FundingBarChart data={fundingData.totalFundingByYear} />
       </div>
 
+      <div>
+        <h2>Funding Trends by Industry</h2>
+        <IndustryTrendChart data={fundingData.fundingTrendsByIndustry} />
+      </div>
     </div>
   );
 }
